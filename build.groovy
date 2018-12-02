@@ -6,7 +6,7 @@ pipeline {
 			steps{
     				// some block
 				sh 'ls -al'
-				//sh "
+				sh 'node -v'
 			}	
 		}
 	}
