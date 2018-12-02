@@ -6,7 +6,9 @@ pipeline {
 			steps{
     				// some block
 				sh 'ls -al'
-				sh 'node -v'
+				sh '/usr/local/bin/npm -v'
+				sh '/usr/local/bin/node
+ -v'
 			}	
 		}
 	}
