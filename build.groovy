@@ -3,9 +3,11 @@ pipeline {
 	agent any
         stages {
 		stage('Run Cucumber') {
-    			// some block
-			sh "npm install"
-			//sh "
+			steps{
+    				// some block
+				sh "npm install"
+				//sh "
+			}	
 		}
 	}
 }
