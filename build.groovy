@@ -5,7 +5,7 @@ pipeline {
 		stage('Run Cucumber') {
 			steps{
     				// some block
-				sh 'npm install'\
+				sh 'la -al'
 				//sh "
 			}	
 		}
