@@ -5,7 +5,7 @@ pipeline {
 		stage('Run Cucumber') {
 			steps{
     				// some block
-				sh 'la -al'
+				sh 'ls -al'
 				//sh "
 			}	
 		}
