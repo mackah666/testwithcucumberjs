@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "cucumber": "^5.0.2"
+    "cucumber": "^5.0.2",
+    "cucumber-html-reporter": "^5.0.0"
   },
   "scripts": {
     "test": "./node_modules/.bin/cucumber-js"
