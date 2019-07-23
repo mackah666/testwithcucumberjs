@@ -5,9 +5,8 @@ pipeline {
 		stage('Run Cucumber') {
 			steps{
     				// some block
-				sh 'ls -al'
-				sh 'npm -v'
-				//sh '/usr/local/bin/node -v'			
+				sh 'export PATH=/usr/local/bin'
+				sh 'npm install'			
 			}	
 		}
 	}
